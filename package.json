@@ -1,0 +1,54 @@
+{
+  "name": "mobiletto-driver-generic",
+  "version": "2.0.10",
+  "type": "module",
+  "description": "The generic driver for mobiletto, can wrap any other driver or dynamically define new drivers. This package is intended to be used with mobiletto-base, which does not include any drivers",
+  "keywords": [
+    "storage",
+    "generic",
+    "filesystem",
+    "mobiletto"
+  ],
+  "homepage": "https://github.com/cobbzilla/mobiletto",
+  "author": "Jonathan Cobb <bqppl0m2@duck.com> (https://github.com/cobbzilla)",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/cobbzilla"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cobbzilla/mobiletto-driver-generic.git"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "mocha --timeout 60000 ./test/*.spec.js",
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "lint": "npx eslint src test",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src test --check",
+    "prettier:fix": "npm run prettier -- --write"
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "fake-indexeddb": "^4.0.1",
+    "mobiletto-base": "^2.0.30",
+    "mobiletto-driver-indexeddb": "^2.0.12",
+    "mobiletto-driver-local": "^2.0.2",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.8",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.1.6"
+  }
+}
