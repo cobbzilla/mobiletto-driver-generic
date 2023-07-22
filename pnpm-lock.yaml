@@ -33,14 +33,14 @@ devDependencies:
     specifier: ^4.0.1
     version: 4.0.1
   mobiletto-base:
-    specifier: ^2.0.30
-    version: 2.0.30
+    specifier: ^2.0.31
+    version: 2.0.31
   mobiletto-driver-indexeddb:
-    specifier: ^2.0.12
-    version: 2.0.12
+    specifier: ^2.0.14
+    version: 2.0.14
   mobiletto-driver-local:
-    specifier: ^2.0.2
-    version: 2.0.2
+    specifier: ^2.0.7
+    version: 2.0.7
   mocha:
     specifier: ^10.2.0
     version: 10.2.0
@@ -1245,13 +1245,13 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
-  /mobiletto-base@2.0.30:
-    resolution: {integrity: sha512-udD/+MI5nyaXqwqVf8KBlZqdUTu1LIlDWSqDX8N6anHjM5jVDDKQ/PRrAJKTDbVs/aJlZ/VoCPMda/tmbp/Lvg==}
+  /mobiletto-base@2.0.31:
+    resolution: {integrity: sha512-xh5MRHKTfI86DyPif45I8HxgkDrrsqU46FuqPrGFR0/xxIq7Yf0/WSwhrpkZTMU0NED1hMW22WAsiE52RGeN5A==}
     dependencies:
       bullmq: 4.6.0
       ioredis: 5.3.2
       lru-cache: 10.0.0
-      mobiletto-common: 2.0.15
+      mobiletto-common: 2.0.17
       node-fetch-commonjs: 3.3.1
       node-redis-scan: 1.3.6
       shasum: 1.0.2
@@ -1259,20 +1259,20 @@ packages:
       - supports-color
     dev: true
 
-  /mobiletto-common@2.0.15:
-    resolution: {integrity: sha512-G7YG5XGz61AFRalbOwzIrDdkQetf0RRNxqL+Bq86s1IpXGkmB8ViMylaSETR6nWmjeTo1PV8YX5o+ETSHFZ8Ng==}
+  /mobiletto-common@2.0.17:
+    resolution: {integrity: sha512-vGw8/f5ucTPtuCSIvv4tgqruy0X+0sOt6fBJEUH9Kqk40vdXOjD8eejKx+thlDABehvQdfmJGNRMQKvLHf6Xjg==}
     dependencies:
       winston: 3.10.0
     dev: true
 
-  /mobiletto-driver-indexeddb@2.0.12:
-    resolution: {integrity: sha512-9B0AaeXA+TDyf2bOjw67YlAXMrySVJTpfuVkluX3BoHTmGEjc4XgyaqIpG8iuHkI9m7qZfJD+Yl5e23iQbaT7A==}
+  /mobiletto-driver-indexeddb@2.0.14:
+    resolution: {integrity: sha512-OyWMAFGuLXR/dRFX2U7MK5d/e6qy+N+WfYLjsZG9VGfBYwYVWW0tGMnCqU/ESvVeIXEtQu9X3hyaMPB5t4zrsA==}
     dependencies:
       buffer: 6.0.3
     dev: true
 
-  /mobiletto-driver-local@2.0.2:
-    resolution: {integrity: sha512-cs7cZPlzdlH3geu0mLJNsnC8usZ4rBw7Q7NKEBLYDGBY+tftupteYXXQfUGn4yQgk5UzkpcZJ3PAOUbTD2Wu+A==}
+  /mobiletto-driver-local@2.0.7:
+    resolution: {integrity: sha512-3Mw0R426CrNWLUzv0N8af0usZ5hOibZRXJE00uYTrIkX8877IAEUO+Hjm3ysZffDYm7EMkj1GqhLjXYISZd52A==}
     dev: true
 
   /mocha@10.2.0:
