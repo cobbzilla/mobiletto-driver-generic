@@ -33,14 +33,14 @@ devDependencies:
     specifier: ^4.0.1
     version: 4.0.1
   mobiletto-base:
-    specifier: ^2.0.33
-    version: 2.0.33
+    specifier: ^2.0.34
+    version: 2.0.34
   mobiletto-driver-indexeddb:
-    specifier: ^2.0.16
-    version: 2.0.16
+    specifier: ^2.0.17
+    version: 2.0.17
   mobiletto-driver-local:
-    specifier: ^2.0.10
-    version: 2.0.10
+    specifier: ^2.0.11
+    version: 2.0.11
   mocha:
     specifier: ^10.2.0
     version: 10.2.0
@@ -1245,8 +1245,8 @@ packages:
       brace-expansion: 2.0.1
     dev: true
 
-  /mobiletto-base@2.0.33:
-    resolution: {integrity: sha512-umD0HTwcy20twDg4CcrmfzLnByW/YCJy4dJx1/vo7XfOVuquazqQMIeY6EYJxSt1pd8qRkcpcGG+vgE0Viu1uw==}
+  /mobiletto-base@2.0.34:
+    resolution: {integrity: sha512-oObb+yRNNk/dFhhoJw3QaLFdh/OtiDLD68O9nMSNRMdF5C1HLdc2zH1mEgThiZzr2ZpVUFTDZsGkaO6LnOetAg==}
     dependencies:
       bullmq: 4.7.1
       ioredis: 5.3.2
@@ -1265,14 +1265,14 @@ packages:
       winston: 3.10.0
     dev: true
 
-  /mobiletto-driver-indexeddb@2.0.16:
-    resolution: {integrity: sha512-IB84RGJV0uvw4uitL5M8juuUxXvpHVhQ1CHvhZ8MQsd6xM7j6jdaiak4oU8H/4JvRxUVQqZ9RW/Dy6MLSroMUg==}
+  /mobiletto-driver-indexeddb@2.0.17:
+    resolution: {integrity: sha512-3BOuTj/Qzujq1cznIEL70X300mv0xJ3qds7mTYMgg2HnuzlHzRNEwqRXqoJKOh5lRe094Ff3k3MgIN/cEddwlA==}
     dependencies:
       buffer: 6.0.3
     dev: true
 
-  /mobiletto-driver-local@2.0.10:
-    resolution: {integrity: sha512-RSXhPPvLHWa/D/K1lx5cj2VUUpwnJ5C2JqMnsTDnrIGvroJyaF2qYUsQE259Q9Qcp64ScQ90Y3HJ9H80siPkkg==}
+  /mobiletto-driver-local@2.0.11:
+    resolution: {integrity: sha512-b2Oa3uQQKiAPoZENnJ3c6bNJ+HYgCCIIFswNKQU1ElWI5++8STlXSYWvVRH8MOVnSRLiOQnaBsxmxxCjh4HUFg==}
     dev: true
 
   /mocha@10.2.0:
