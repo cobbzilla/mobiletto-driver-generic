@@ -8,6 +8,7 @@ import {
     MobilettoRemoveOptions,
     MobilettoVisitor,
     MobilettoWriteSource,
+    MobilettoDriverInfo,
 } from "mobiletto-base";
 
 export type DriverFunc = (key: string, secret?: string, opts?: GenericDriverOpts) => MobilettoMinimalClient;
@@ -28,6 +29,8 @@ export class StorageClient {
     }
 
     testConfig = async () => this.driver.testConfig();
+
+    info = () => this.driver.info();
 
     async list(
         pth?: string,
