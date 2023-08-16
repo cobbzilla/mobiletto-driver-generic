@@ -1,6 +1,6 @@
 {
   "name": "mobiletto-driver-generic",
-  "version": "2.0.16",
+  "version": "2.0.17",
   "type": "module",
   "description": "The generic driver for mobiletto, can wrap any other driver or dynamically define new drivers. This package is intended to be used with mobiletto-base, which does not include any drivers",
   "keywords": [
@@ -43,9 +43,9 @@
     "eslint": "^8.44.0",
     "eslint-config-prettier": "^8.8.0",
     "fake-indexeddb": "^4.0.1",
-    "mobiletto-base": "^2.1.0",
-    "mobiletto-driver-indexeddb": "^2.0.19",
-    "mobiletto-driver-local": "^2.0.13",
+    "mobiletto-base": "^2.1.1",
+    "mobiletto-driver-indexeddb": "^2.0.20",
+    "mobiletto-driver-local": "^2.0.14",
     "mocha": "^10.2.0",
     "prettier": "^2.8.8",
     "tslint-config-prettier": "^1.18.0",
